@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Сайт Парфировой Елены Юрьевны</title>
+</head>
+<body>
+    {% for post in post_list %}
+    <h1> {{ post.title }}</h1>>
+        {{ post.desciptions}}
+    <h4>{{ post.author}}</h4>>
+    {% endfor %}
+</body>
+</html>
